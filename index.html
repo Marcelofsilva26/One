@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Criptografia</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Projeto de Criptografia</h1>
+    </header>
+    <main>
+        <section class="input-section">
+            <textarea id="inputText" placeholder="Digite seu texto aqui..." rows="10" cols="30"></textarea>
+            <div class="buttons">
+                <button id="encryptBtn">Criptografar</button>
+                <button id="decryptBtn">Descriptografar</button>
+            </div>
+            <p class="validation-msg">Letras maiúsculas e caracteres especiais não são aceitos.</p>
+        </section>
+        <section class="output-section">
+            <textarea id="outputText" placeholder="Resultado aparecerá aqui..." rows="10" cols="30" readonly></textarea>
+            <button id="copyBtn">Copiar</button>
+        </section>
+    </main>
+    <footer>
+        <p>Criado por Marcelo, 2024</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
